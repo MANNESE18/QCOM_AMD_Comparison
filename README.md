@@ -25,9 +25,7 @@ This Python script provides a comparative analysis of the investment performance
 ## Key Achievement in Code
 
 The standout technical achievement in this script is the **seamless data synchronization through relational merging**. By using:
-
 ```
-Python
 Comparison_table = pd.merge(QCOM, AMD, on='Date', suffixes=('_QCOM', '_AMD'))
 ```
 
